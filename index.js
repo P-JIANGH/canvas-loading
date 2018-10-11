@@ -33,8 +33,8 @@ window.onload = () => {
     gradient.addColorStop(0, '#00CCFF');
     gradient.addColorStop(1, '#CCFFFF');
     ctx.fillStyle = gradient;
+    
     var path = new Path2D();
-    // path.beginPath();
     path.moveTo(beginX1, beginY1)
     path.arc(circleX, circleY, mainR1, - Math.PI / 2, - Math.PI / 4);
 
